@@ -1,0 +1,43 @@
+# Synapse_Rader L1 关键词过滤配置
+# 标题或摘要匹配到任意关键词则通过 L1 过滤
+# 英文：大小写不敏感子串匹配
+# 中文：子串匹配
+
+target_keywords:
+  en:
+    - Agent           # AI Agent 相关
+    - LLM             # 大语言模型
+    - Multimodal      # 多模态
+    - NLP             # 自然语言处理
+    - Transformer     # Transformer 架构
+    - RLHF            # 人类反馈强化学习
+    - RAG             # 检索增强生成
+    - MCP             # Model Context Protocol
+    - function-calling  # 函数调用
+    - tool-use        # 工具使用
+    - fine-tuning     # 微调
+    - pre-training    # 预训练
+    - embedding       # 向量嵌入
+    - vector-database # 向量数据库
+    - prompt-engineering  # 提示工程
+    - chain-of-thought    # 思维链
+    - reasoning       # 推理
+    - alignment       # 对齐
+    - open-source     # 开源模型/工具
+    - benchmark       # 评测基准
+
+  zh:
+    - 大模型          # 大语言模型/大规模模型
+    - 多模态          # 多模态模型
+    - 智能体          # AI Agent
+    - 对齐            # AI 对齐
+    - 推理            # 推理能力
+    - 微调            # 模型微调
+    - 预训练          # 预训练
+    - 提示工程        # Prompt Engineering
+    - 检索增强        # RAG
+    - 生成式          # 生成式 AI
+    - 开源模型        # 开源大模型
+    - 向量数据库      # Vector DB
+    - 函数调用        # Function Calling
+    - 工具调用        # Tool Use
